@@ -30,10 +30,10 @@ class comparePrice:
 	def describeSpotPrice(self):
 		os.system('aws ec2 describe-spot-price-history --instance-types {} --product-description "Linux/UNIX (Amazon VPC)" --start-time {} --end-time {}'.format(self.ami,self.dateDelta,self.date))
 
-
-if __name__ == "__main__":
-	describe = comparePrice("m1.xlarge", 3)
-	describe.describeSpotPrice()
+#### Example usage with hard encoding.
+#if __name__ == "__main__":
+#	describe = comparePrice("m1.xlarge", 3)
+#	describe.describeSpotPrice()
 
 
 
