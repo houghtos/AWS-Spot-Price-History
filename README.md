@@ -10,11 +10,17 @@ AMI type and other information (e.g. region) can be changed by editing the os.sy
 Example usage: 
 
   #Declare object:
+  
   #Input of AMI type and number of previous months to review.
+
 	listPriceObject = comparePrice("t3.2xlarge", 3)
 	
-  #Calculate two different dates.
-  listPriceObject.monthDelta()        
+
+#Calculate two different dates.
+
+	listPriceObject.monthDelta()        
 	
-  #Submit AWS CLI shell command for describing spot instances prices.
-  listPriceObject.describeSpotPrice()
+
+#Submit AWS CLI shell command for describing spot instances prices.
+	
+	listPriceObject.describeSpotPrice()
