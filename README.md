@@ -7,7 +7,7 @@ Class takes to inputs: EC2 machine type (e.g. m1.xlarge) and number of months pr
 
 AMI type and other information (e.g. region) can be changed by editing the os.system command passed to the AWS CLI on line 31 (function "describeSpotPrice()")
 
-Example usage: 
+## Example usage: 
 
   	#Declare object:
   
