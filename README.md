@@ -1,7 +1,9 @@
 # AWS-Spot-Price-History
 Simple module to give historical pricing for spot EC2 instances.
 
-Requires AWS CLI to be installed and usable from your machine's command line.  Also requires key/secret key to be setup through AWS configure.
+## Requirements: 
+1. AWS CLI to be installed and usable from your machine's command line.  
+2. AWS Key/secret key and region configured from your CLI.
 
 Class takes two inputs: 
 1. EC2 machine type (e.g. m1.xlarge) 
