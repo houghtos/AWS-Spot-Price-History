@@ -9,7 +9,8 @@ Simple module to give historical pricing for spot EC2 instances.
 1. EC2 machine type (e.g. m1.xlarge) 
 2. Number of months prior you wish to see spot prices for (e.g. 3).
 
-*Note*
+*Note:*
+
 AMI type and other information (e.g. region) can be changed by editing [the os.system command](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html) passed to the AWS CLI on line 31 (function "describeSpotPrice()")
 
 ## Example usage: 
