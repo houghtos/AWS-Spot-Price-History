@@ -1,5 +1,5 @@
 # AWS-Spot-Price-History
-Simple module to give historical pricing for spot EC2 instances.
+Stand alone module to give historical pricing for spot EC2 instances.
 
 ## Requirements: 
 1. AWS CLI to be installed and usable from your machine's command line.  
