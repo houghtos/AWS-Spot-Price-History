@@ -7,7 +7,7 @@ Stand alone module to give historical pricing for spot EC2 instances.
 
 ## Price History Object takes two inputs: 
 1. EC2 machine type (e.g. m1.xlarge) 
-2. Number of months prior you wish to see spot prices for (e.g. 3).
+2. Number of months prior from today you wish to see spot prices for (e.g. 3).
 
 *Fully Customize Query:*
 
