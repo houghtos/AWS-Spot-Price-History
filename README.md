@@ -15,18 +15,14 @@ AMI type and other information (e.g. region) can be changed by editing [the os.s
 
 ## Example usage: 
 
-  	#Declare object:
-  
-  	#Input of AMI type and number of previous months to review.
+  	#Declare object with 2 inputs: AMI type and number of previous months to review.
 
 	listPriceObject = comparePrice("t3.2xlarge", 3)
 	
-
-	#Calculate two different dates.
+	#Calculate difference from current date to input (e.g. 3) months prior.
 
 	listPriceObject.monthDelta()        
 	
-
 	#Submit AWS CLI shell command for describing spot instances prices.
 	
 	listPriceObject.describeSpotPrice()
